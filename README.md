@@ -9,7 +9,7 @@
 * Highly available, resilient, and distributed
 
 ## Spark
-<p align="left">
+
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/spark.png?raw=true" alt="Spark">
 
 * Spark batch jobs
@@ -18,11 +18,9 @@
     * compare to real time processing like Apache Flink
 * Spark SQL: Sql like descriptive interface
 
-</p>
 
 ## Mesos
 
-<p align="left">
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/mesos.png?raw=true" alt="Mesos">
 
 * Scheduling framework: Providing ressources for applications and jobs
@@ -33,11 +31,9 @@
     * using mesos
     * Microservices and Container
 
-</p>
 
 ## Akka
 
-<p align="left">
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/akka.png?raw=true" alt="Akka">
 
 * implementation of the actor framework
@@ -47,11 +43,9 @@
 * commonly used with scala, but java is possible
 * `akka-http` for REST services
 
-</p>
 
 ## Cassandra
 
-<p align="left">
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/cassandra.png?raw=true" alt="Cassandra">
 
 * NoSQL
@@ -62,16 +56,12 @@
 * Connectors for spark and mesos
 * Possible to be used accross multiple data centers
 
-</p>
 
 ## Kafka
 
-<p align="left">
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/kafka.png?raw=true" alt="Kafka">
 
 * Distributed messaging system
 * high availability, high throughput, low latency
 * using a distributed commit log internally
-
-</p>
 
