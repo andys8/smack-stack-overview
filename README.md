@@ -1,8 +1,11 @@
 # SMACK Stack
 
-* Big-Data platform
+* Collection of technologies that can be used to create a Big-Data platform.
 * Realtime analytics
 * Fast-Data solution
+* Enable explorative data analysis
+* Fast and simple deployment
+* Acronym SMACK for Spark (Engine), Mesos (Manager), Akka (Model), Cassandra (Database) and Kafka (Message Broker)
 * Data processing pipeline architecture
 * Ingestion, aggregation, analysis
 * All are Apache projects (except Akka)
