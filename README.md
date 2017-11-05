@@ -15,8 +15,10 @@
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/spark.png?raw=true" alt="Spark">
 
-* Spark batch jobs
+* Spark: Engine for large-scale data processing
+    * batch jobs
     * Easy to use
+    * Faster than Hadoop MapReduce
 * Spark Streaming uses micro batches to address realtime usecases
     * compare to real time processing like Apache Flink
 * Spark SQL: Sql like descriptive interface
