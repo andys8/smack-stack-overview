@@ -67,4 +67,8 @@
 * Distributed messaging system
 * high availability, high throughput, low latency
 * using a distributed commit log internally
+* Producers publish to a pub/sub message queue
+* Data will be partioned within topics
+* Partitions can be distributed to cluster nodes
+* Consumers will receive the requested messages
 
