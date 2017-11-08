@@ -35,11 +35,5 @@ Cassandra is NoSQL database. It is wide column store and can be seen as two-dime
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/kafka.png?raw=true" alt="Kafka">
 
-* Distributed messaging system
-* high availability, high throughput, low latency
-* using a distributed commit log internally
-* Producers publish to a pub/sub message queue
-* Data will be partioned within topics
-* Partitions can be distributed to cluster nodes
-* Consumers will receive the requested messages
+Kafka is a distributed messaging system which is well known for low latency and high availability and throughput. Kafka is using a dstributed commit log internally. Producers publish messages to publish-subscribe message queues. The data within a topic is partioned. Partitions can be distributed to cluster nodes and consumer receive the requested messages.
 
