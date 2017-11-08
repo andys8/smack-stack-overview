@@ -1,6 +1,6 @@
 # SMACK Stack
 
-The SMACK stack is a collection of technologies which can be composed and form a Big-Data platform. The acronym SMACK stands for Spark (engine), Mesos (manager), Akka (model), Cassandra (database) and Kafka (message broker). All except Akka are Apache projects. The goal is to achieve a highly available, resilient and distributed data processing architecture to enable explorative, realtime data-analysis and fast deployment.
+The SMACK stack is a collection of technologies which can be composed to create a private cloud architecture. The acronym SMACK stands for Spark (engine), Mesos (manager), Akka (model), Cassandra (database) and Kafka (message broker). All except Akka are Apache projects. The goal is to achieve a highly available, resilient and distributed data processing architecture to enable explorative, realtime data-analysis and fast deployment.
 
 
 ## Spark
@@ -14,25 +14,14 @@ Spark is a engine for large-scale data processing and makes it easy to build par
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/mesos.png?raw=true" alt="Mesos">
 
-* Scheduling framework: Providing ressources for applications and jobs
-* Hardware abstraction
-* distributes workload across the cluster
-* Orchestrate components and manage ressources
-* DC/OS: DataCenter Operating System
-    * using mesos
-    * Microservices and Container
+Mesos is a scheduling framework to manage clusters. It provides ressources for application, services and jobs and abstracts the underlying hardware. The workload is distributed across the cluster. With the distributed operating system "DC/OS" on top of mesos deployment and scaling of containerized applications is provided in a single place.
 
 
 ## Akka
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/akka.png?raw=true" alt="Akka">
 
-* implementation of the actor framework
-* allows to create message-driven applications
-* actor based concurrency
-* fault-tolerant
-* commonly used with scala, but java is possible
-* `akka-http` for REST services
+Akka is an implementation of the Actor Model and allows to create message-driven applications in Scala or Java. The toolkit is inspired by Erlang and its fault-tolerance due to actor based concurrency. Actors can modify local state but don't expose it. Instead they use asynchronous messages to interact with other actors.
 
 
 ## Cassandra
