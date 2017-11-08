@@ -7,7 +7,7 @@ The SMACK stack is a collection of technologies which can be composed to create 
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/spark.png?raw=true" alt="Spark">
 
-Spark is a engine for large-scale data processing and makes it easy to build parallel applications or batch jobs. An advantages over Hadoop MapReduce is superior performance. There is also support to query structured data using "Spark SQL". On the other hand, "Spark Streaming" addresses real time usecases. Incoming data is chunked into micro batches which will processed seperately. Due to batch processing architecture latency is in the order of seconds or minutes. In comparison: Stream processing frameworks like Apache Flink operate with millisecond latencies.
+Spark is a engine for large-scale data processing and makes it easy to build parallel applications or batch jobs. An advantages over Hadoop MapReduce is superior performance. There is also support to query structured data using "Spark SQL". On the other hand, "Spark Streaming" addresses real time usecases. Incoming data is chunked into micro batches which will processed seperately.
 
 
 ## Mesos
@@ -28,13 +28,7 @@ Akka is an implementation of the Actor Model and allows to create message-driven
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/cassandra.png?raw=true" alt="Cassandra">
 
-* NoSQL
-* Wide Column Store
-* linear, horizontal scaling
-* No single point of failure
-* Performance
-* Connectors for spark and mesos
-* Possible to be used accross multiple data centers
+Cassandra is NoSQL database. It is wide column store and can be seen as two-dimensional key value store. Cassandra set of query operations is limited in order to gurantee performance and linear, horizontal scaling. There is no single point of failure and it's possible to be used across multiple data centers.
 
 
 ## Kafka
