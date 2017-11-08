@@ -7,13 +7,7 @@ The SMACK stack is a collection of technologies which can be composed and form a
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/spark.png?raw=true" alt="Spark">
 
-* Spark: Engine for large-scale data processing
-    * batch jobs
-    * Easy to use
-    * Faster than Hadoop MapReduce
-* Spark Streaming uses micro batches to address realtime usecases
-    * compare to real time processing like Apache Flink
-* Spark SQL: Sql like descriptive interface
+Spark is a engine for large-scale data processing and makes it easy to build parallel applications or batch jobs. An advantages over Hadoop MapReduce is superior performance. There is also support to query structured data using "Spark SQL". On the other hand, "Spark Streaming" addresses real time usecases. Incoming data is chunked into micro batches which will processed seperately. Due to batch processing architecture latency is in the order of seconds or minutes. In comparison: Stream processing frameworks like Apache Flink operate with millisecond latencies.
 
 
 ## Mesos
