@@ -1,6 +1,6 @@
 # SMACK Stack
 
-The SMACK stack is a collection of technologies composed to create a private cloud platform. The acronym SMACK stands for Spark (engine), Mesos (manager), Akka (runtime), Cassandra (database) and Kafka (message broker). All except Akka are Apache projects. The goal is to achieve a resilient and distributed data processing architecture to enable explorative, real-time data-analysis and fast deployment.
+The SMACK stack is a collection of technologies composed to build a resilient and distributed data processing architecture to enable real-time data-analysis and fast deployment.  The acronym SMACK stands for the Spark engine, the Mesos manager, the Akka toolkit and runtime, the Cassandra database and the Kafka message broker. All components except for Akka are Apache projects. The software is open source and production-proven at scale. By using this loosely coupled toolchain of technologies, it's possible to create a private cloud platform to handle large amounts of data and avoid cloud vendor lock-in at the same time.
 
 
 ## Spark
@@ -35,5 +35,5 @@ Cassandra is a NoSQL database. It is a wide column store and can be seen as a tw
 
 <img width="300" src="https://github.com/andys8/smack-stack-overview/blob/master/img/kafka.png?raw=true" alt="Kafka">
 
-Kafka is a distributed messaging system which is well-known for low latency and high availability and throughput. Kafka is using a shared commit log internally. Producers publish messages to publish-subscribe message queues. Kafka partitions the data within a topic. Partitions can be distributed to cluster nodes and consumers receive the requested messages.
+Kafka is a distributed messaging system which is well-known for low latency and high availability and throughput. Kafka is using a shared commit log internally. It can replay the log which is its unique selling point. Producers publish messages to publish-subscribe message queues. Kafka partitions the data within a topic. Partitions can be distributed to cluster nodes and consumers receive the requested messages.
 
