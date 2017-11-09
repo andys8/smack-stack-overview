@@ -1,6 +1,6 @@
 # SMACK Stack
 
-The SMACK stack is a collection of technologies composed to create a private cloud architecture. The acronym SMACK stands for Spark (engine), Mesos (manager), Akka (runtime), Cassandra (database) and Kafka (message broker). All except Akka are Apache projects. The goal is to achieve a resilient and distributed data processing architecture to enable explorative, real-time data-analysis and fast deployment.
+The SMACK stack is a collection of technologies composed to create a private cloud platform. The acronym SMACK stands for Spark (engine), Mesos (manager), Akka (runtime), Cassandra (database) and Kafka (message broker). All except Akka are Apache projects. The goal is to achieve a resilient and distributed data processing architecture to enable explorative, real-time data-analysis and fast deployment.
 
 
 ## Spark
